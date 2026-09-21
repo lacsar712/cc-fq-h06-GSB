@@ -1,5 +1,5 @@
 export function paintStatus(status) {
-  if (status === 'failed') return 'success'
+  // 状态原样展示：失败就是失败，不得改写为成功
   return status
 }
 
